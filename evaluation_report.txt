@@ -1,0 +1,52 @@
+================================================================================
+RL ALGORITHM EVALUATION REPORT
+================================================================================
+
+SAMPLE EFFICIENCY
+----------------------------------------
+Rankings by final performance:
+  1. Algorithm_B
+  2. Algorithm_A
+  3. Algorithm_C
+
+FINAL PERFORMANCE
+----------------------------------------
+Algorithm_A:
+  Mean: 99.04 ± 0.78
+Algorithm_B:
+  Mean: 99.89 ± 1.25
+Algorithm_C:
+  Mean: 96.86 ± 3.76
+
+STABILITY ANALYSIS
+----------------------------------------
+Algorithm_A:
+  Stability Index: 0.202
+  Catastrophic Failures: 4
+Algorithm_B:
+  Stability Index: 0.188
+  Catastrophic Failures: 4
+Algorithm_C:
+  Stability Index: 0.142
+  Catastrophic Failures: 21
+
+ROBUST STATISTICS (IQM)
+----------------------------------------
+Algorithm_A:
+  IQM: 87.82
+  Mean: 79.67
+  Outliers: 38
+Algorithm_B:
+  IQM: 95.25
+  Mean: 89.55
+  Outliers: 55
+Algorithm_C:
+  IQM: 76.02
+  Mean: 72.03
+  Outliers: 2
+
+OVERALL RANKINGS
+----------------------------------------
+1. Algorithm_B (score: 11)
+2. Algorithm_A (score: 9)
+3. Algorithm_C (score: 4)

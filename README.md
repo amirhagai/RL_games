@@ -32,7 +32,8 @@ A comprehensive, scalable reinforcement learning benchmarking system for testing
 
 ### Phase 2: Parallel Infrastructure ✓
 - `parallel_envs.py` - Vectorized environment management
-  - Uses official `gymnasium.make_vec()` API
+  - Uses official `gymnasium.make_vec()` API (for Gymnasium-only code)
+  - **Note**: benchmark.py uses SB3's `make_vec_env()` for SB3 compatibility
   - Supports async/sync vectorization
   - Resource monitoring (CPU, GPU, memory)
 

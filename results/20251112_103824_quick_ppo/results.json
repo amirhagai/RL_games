@@ -1,0 +1,37 @@
+[
+  {
+    "env_id": "MountainCar-v0",
+    "seed": 0,
+    "status": "success",
+    "final_reward": -200.0,
+    "final_std": 0.0
+  },
+  {
+    "env_id": "LunarLander-v3",
+    "seed": 0,
+    "status": "success",
+    "final_reward": -482.4093303333334,
+    "final_std": 308.2346574855685
+  },
+  {
+    "env_id": "CartPole-v1",
+    "seed": 0,
+    "status": "success",
+    "final_reward": 381.3333333333333,
+    "final_std": 62.537100099771884
+  },
+  {
+    "env_id": "Acrobot-v1",
+    "seed": 0,
+    "status": "success",
+    "final_reward": -391.6666666666667,
+    "final_std": 153.2064692570853
+  },
+  {
+    "env_id": "Pendulum-v1",
+    "seed": 0,
+    "status": "success",
+    "final_reward": -1273.1475273333333,
+    "final_std": 227.57268364825237
+  }
+]

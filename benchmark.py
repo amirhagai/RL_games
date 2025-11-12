@@ -35,7 +35,10 @@ def run_single_env_experiment(
         print(f"[{env_id}][Seed {seed}] Starting experiment...")
 
         # Create train and eval environments
-        train_env = gym.make_vec(env_id, num_envs=config.vectorize, vectorization_mode='async')
+        # Use SB3's vectorization (compatible with SB3 algorithms)
+        from stable_baselines3.common.env_util import make_vec_env
+
+        train_env = make_vec_env(env_id, n_envs=config.vectorize, seed=seed)
         eval_env = gym.make(env_id)
 
         # Create algorithm

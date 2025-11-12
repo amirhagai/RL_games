@@ -1,0 +1,16 @@
+[
+  {
+    "mean_reward": 387.3333333333333,
+    "std_reward": 159.33472802736873,
+    "num_episodes": 3,
+    "timestep": 10000,
+    "wall_time": 19.65874218940735
+  },
+  {
+    "mean_reward": 351.6666666666667,
+    "std_reward": 162.62499466222556,
+    "num_episodes": 3,
+    "timestep": 12288,
+    "wall_time": 26.858360528945923
+  }
+]

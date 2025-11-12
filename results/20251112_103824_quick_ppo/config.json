@@ -1,0 +1,20 @@
+{
+  "mode": "quick",
+  "env_ids": null,
+  "env_suite": null,
+  "num_envs": null,
+  "total_timesteps": 10000,
+  "num_seeds": 1,
+  "eval_freq": 5000,
+  "eval_episodes": 3,
+  "vectorize": 2,
+  "num_workers": null,
+  "algorithm": "ppo",
+  "algorithm_kwargs": {},
+  "log_dir": "logs",
+  "tensorboard": true,
+  "save_checkpoints": false,
+  "checkpoint_freq": 50000,
+  "results_dir": "results",
+  "experiment_name": null
+}
