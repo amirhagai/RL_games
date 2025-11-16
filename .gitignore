@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# RL Models and Checkpoints (HEAVY)
+models/
+*.zip
+*.pkl
+*.pt
+*.pth
+*.h5
+*.onnx
+*.model
+checkpoints/
+saved_models/
+
+# Benchmark Results (HEAVY)
+results/
+test_results_detailed/
+logs/
+tensorboard_logs/
+*.log
+
+# Generated Metadata (can be regenerated)
+gym_metadata_raw.json
+env_metadata.json
+
+# Test outputs
+quick_test_output.txt
+test_results.txt
+*.out
+
+# Archives (but not documentation)
+rl_class_pack.zip
+rl_endgame_labs*.zip
+rl_endgame_lectures*.zip
+rl_sota_pack*.zip
+
+# Keep all .md files (documentation)
+!*.md
+!**/*.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+._.DS_Store
+**/.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
